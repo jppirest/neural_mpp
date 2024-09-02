@@ -8,6 +8,11 @@ Created on Mon Dec 11 13:58:12 2017
 
 
 
+import sys
+import os
+cwd = '/home/joao.pires/norm_flow/neural_mpp/EM/MAFs_Based/MAF_All_in_One'
+sys.path.append(cwd)
+
 import numpy as np
 
 import torch
