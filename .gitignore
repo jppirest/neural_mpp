@@ -3,3 +3,4 @@
 *.yml
 *.sh
 *.out
+*.venv
