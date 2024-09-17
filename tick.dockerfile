@@ -21,7 +21,7 @@ RUN pip install numpy cython==0.29.36 scipy==1.7.3 \
                 matplotlib numpydoc packaging pandas jupyter
 
 # Install tick from PyPI (or source)
-RUN MAKEFLAGS="-j4" pip install -v tick==0.6.0
+RUN pip install -v tick==0.6.0
 
 # Set the working directory
 WORKDIR /workspace
